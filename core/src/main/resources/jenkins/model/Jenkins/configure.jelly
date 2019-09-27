@@ -36,7 +36,7 @@ THE SOFTWARE.
       <j:set var="instance" value="${it}" />
       <j:set var="descriptor" value="${instance.descriptor}" />
 
-      <f:entry title="${%Home directory}" help="/help/system-config/homeDirectory.html">
+      <f:entry title="${%Home Directory}" help="/help/system-config/homeDirectory.html">
         ${it.rootDir}
       </f:entry>
       <f:entry title="${%System Message}" help="/help/system-config/systemMessage.html">
